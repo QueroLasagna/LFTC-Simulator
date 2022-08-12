@@ -4,7 +4,7 @@ using UnityEngine;
 
 public partial class Tape : MonoBehaviour
 {
-    public string Content = "test";
+    public string Content = "aabb";
     public Vector3 OffSet = new Vector3();
     public Symbol Symbol = null;
     private List<Symbol> Symbols = new List<Symbol>();
