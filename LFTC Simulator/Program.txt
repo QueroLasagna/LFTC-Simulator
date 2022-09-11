@@ -1,0 +1,20 @@
+﻿q1 q2 q3 q4 q5 q6 q7 q8
+q1
+q8
+q1 1 q2 X R
+q1 $ q8 $ R
+q2 1 q2 1 R
+q2 $ q3 $ R
+q3 1 q4 Y R
+q3 @ q7 @ L
+q4 1 q4 1 R
+q4 @ q5 @ R
+q5 1 q5 1 R
+q5 ! q6 1 L
+q6 1 q6 1 L
+q6 @ q6 @ L
+q6 Y q3 Y R
+q7 1 q7 1 L
+q7 $ q7 $ L
+q7 X q1 X R
+q7 Y q7 1 L
