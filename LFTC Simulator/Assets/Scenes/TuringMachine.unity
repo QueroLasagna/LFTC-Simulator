@@ -152,10 +152,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 562a30c3f8696e24095d3e36a4416a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: 111$11@
+  TapeString: 111$11@
   OffSet: {x: 2, y: 0, z: 0}
   Symbol: {fileID: -8823991385598541333, guid: b0f560f6c5cfc6a4a8d8a2ca119dfd85, type: 3}
   UIRules: {fileID: 1254296768}
+  UICurrentState: {fileID: 1999437132}
 --- !u!4 &846216720
 Transform:
   m_ObjectHideFlags: 0
