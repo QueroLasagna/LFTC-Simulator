@@ -1,6 +1,4 @@
 using Assembly_CSharp;
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -121,8 +119,15 @@ public partial class Tape : MonoBehaviour
 
     private void LoadUI()
     {
-        UINextRule.SetText($"{m_CurrentState} {m_CurrentRule.RuleToString()}");
         UICurrentState.SetText(m_CurrentState);
+        if (m_IsActive)
+        {
+            UINextRule.SetText($"{m_CurrentState} {m_CurrentRule.RuleToString()}");
+        }
+        else
+        {
+            UINextRule.SetText("Final state");
+        }
     }
 
     private string BuildUiRulesText()
